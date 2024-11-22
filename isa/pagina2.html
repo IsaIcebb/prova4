@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" background-color="Off-white">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+</head>
+<body>
+    <h1>Bem-vindo à Página 2</h1>
+    <p>entre em contato</p>
+    <button id="goToPage1">Voltar para Página 1</button>
+
+    <script>
+        
+        document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script><center> <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Não divulgaremos seu email.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">senha</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Concordo com a politica do site</label>
+  </div>
+  <button type="submit" class="btn btn-primary">pronto</button>
+</center>
+</form>
+</body>
+</html>
